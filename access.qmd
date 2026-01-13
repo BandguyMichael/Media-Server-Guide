@@ -6,22 +6,38 @@ How to configure remote access to your server.
 
 ## Connecting in Your Local Network
 
+
+
 ## Connecting Outside Your Network
 
+
+
 ### Port Forwarding
+
+
 
 [What if you can't access the router?]
 
 ### What is Tunneling?
 
+
+
 ### Options
 
 #### Playit.gg
 
+
+
 #### Localtonet
+
+
 
 #### Pinggy
 
+
+
 #### Other Options
+
+
 
 [https://github.com/anderspitman/awesome-tunneling]: #

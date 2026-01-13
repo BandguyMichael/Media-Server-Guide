@@ -6,6 +6,11 @@ How to optimize account creation and management.
 
 ### What is jfa-go?
 
+
+
 ### How to add jfa-go to Jellyfin
 
+
+
 ### jfa-go Configuration
+
