@@ -234,9 +234,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Windows: Select downloads –&gt; AMD64 –&gt; jellyfin_10.11.5_windows-x64.exe</li>
 <li>macOS: Select downloads –&gt; AMD64 –&gt; jellyfin_10.11.5-amd64.dmg</li>
-<li>Linux (Debian/Ubuntu): Paste the command ‘curl -s https://repo.jellyfin.org/install-debuntu.sh | sudo bash’ into the terminal application. If ‘curl’ does not work, try using ‘wget -q -O-’</li>
+<li>Linux (Debian/Ubuntu): Paste the command <code>curl -s https://repo.jellyfin.org/install-debuntu.sh | sudo bash</code> into the terminal application. If <code>curl</code> does not work, try using <code>wget -q -O-</code></li>
 </ul>
-<p>From there, follow the instruction given as the application installs. Once everything is installed, open Jellyfin and it should automatically open the server configuration in your browser. If not, type ‘http://localhost:8096/web/index.html#/wizard/start’ into your browser.</p>
+<p>From there, follow the instruction given as the application installs. Once everything is installed, open Jellyfin and it should automatically open the server configuration in your browser. If not, type <code>http://localhost:8096/web/index.html#/wizard/start</code> into your browser.</p>
 </section>
 <section id="adding-and-configuring-libraries" class="level3">
 <h3 class="anchored" data-anchor-id="adding-and-configuring-libraries">Adding and Configuring Libraries</h3>
@@ -246,6 +246,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="configuring-and-editing-metadata" class="level3">
 <h3 class="anchored" data-anchor-id="configuring-and-editing-metadata">Configuring and Editing Metadata</h3>
+<p>Within your media library, adding or editing metadata is pretty straightforward. If media being added is able to be identified from external sites, such as TheMovieDB or TheAudioDB, Jellyfin will automatically fill in metadata and images when scanning your library.</p>
+<p>When adding personal media or media that cannot be properly identified, you may have to add your own metadata. When you hover over a piece of media, an icon with three vertical dots provides a list of options, one of which is to edit metadata. On this screen, a variety of metadata can be added or edited, such as title, date, description, tags, and genres. Additionally, you can also add or change the image associated with your media by selecting “edit images” instead of “edit metadata”.</p>
 
 
 </section>

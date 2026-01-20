@@ -10,9 +10,9 @@ Installing Jellyfin is pretty simple.  First, navigate to the website (jellyfin.
 
 * Windows: Select downloads --> AMD64 --> jellyfin_10.11.5_windows-x64.exe
 * macOS: Select downloads --> AMD64 --> jellyfin_10.11.5-amd64.dmg
-* Linux (Debian/Ubuntu): Paste the command 'curl -s https://repo.jellyfin.org/install-debuntu.sh | sudo bash' into the terminal application.  If 'curl' does not work, try using 'wget -q -O-'
+* Linux (Debian/Ubuntu): Paste the command `curl -s https://repo.jellyfin.org/install-debuntu.sh | sudo bash` into the terminal application.  If `curl` does not work, try using `wget -q -O-`
 
-From there, follow the instruction given as the application installs.  Once everything is installed, open Jellyfin and it should automatically open the server configuration in your browser.  If not, type 'http://localhost:8096/web/index.html#/wizard/start' into your browser.
+From there, follow the instruction given as the application installs.  Once everything is installed, open Jellyfin and it should automatically open the server configuration in your browser.  If not, type `http://localhost:8096/web/index.html#/wizard/start` into your browser.
 
 ### Adding and Configuring Libraries
 
@@ -24,3 +24,6 @@ After seting up your libraries, all that's left is to select the language and re
 
 ### Configuring and Editing Metadata
 
+Within your media library, adding or editing metadata is pretty straightforward.  If media being added is able to be identified from external sites, such as TheMovieDB or TheAudioDB, Jellyfin will automatically fill in metadata and images when scanning your library.
+
+When adding personal media or media that cannot be properly identified, you may have to add your own metadata.  When you hover over a piece of media, an icon with three vertical dots provides a list of options, one of which is to edit metadata.  On this screen, a variety of metadata can be added or edited, such as title, date, description, tags, and genres.  Additionally, you can also add or change the image associated with your media by selecting "edit images" instead of "edit metadata".
