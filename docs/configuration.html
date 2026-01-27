@@ -232,12 +232,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Configuring useful features on your server.</p>
 <section id="transcoding" class="level3">
 <h3 class="anchored" data-anchor-id="transcoding">Transcoding</h3>
+<p>When streaming content, sometimes transcoding will be required to reduce buffering and increase compatiblity. For example, if the upload speed of your internet low, the media must be transcoded to prevent buffering. Additionally, some devices don’t support certain codecs (eg. H.265, AV1, etc) and require media to be transcoded for compatiblity.</p>
+<p>Within Jellyfin, there are many settings for transcoding, but here, we will focus on hardware acceleration, format options, and how far ahead of a given timestamp the server will transcode.</p>
+<p>[discuss the settings]</p>
 </section>
 <section id="trickplay" class="level3">
 <h3 class="anchored" data-anchor-id="trickplay">Trickplay</h3>
 </section>
 <section id="scheduled-tasks" class="level3">
 <h3 class="anchored" data-anchor-id="scheduled-tasks">Scheduled Tasks</h3>
+<p>Scheduled tasks allow your server to run certain operations automatically, keeping the server optimized and metadata up to date. Tasks can be set to run daily, weekly, after a certain time interval, and/or every time the server starts up. Additionally, a time limit can be set on the tasks to prevent them from running too long.</p>
+<p>On my server, I have every scheduled task set to run daily at 1:00am, allowing them to run and finish while I’m very unlikely to be using the server. Nearly all of the tasks run in less than a minute, so running them weekly would likely be just fine, although the longer you go without running the tasks, the longer they may take.</p>
+<p>My recommendation is to start by setting all the tasks to run weekly in the early-morning and adjust from there.</p>
 </section>
 <section id="plugins" class="level3">
 <h3 class="anchored" data-anchor-id="plugins">Plugins</h3>

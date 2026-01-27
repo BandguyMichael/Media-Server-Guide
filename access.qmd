@@ -20,13 +20,11 @@ Once you have the server IP address, enter http://[IP address]:8096 into your br
 
 
 
-[What if you can't access the router?]
-
 ### What is Tunneling?
 
 
 
-### Options
+#### Options
 
 * Playit.gg: 
 

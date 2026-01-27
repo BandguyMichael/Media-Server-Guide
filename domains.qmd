@@ -6,7 +6,7 @@ How to use a domain for easier remote access to your server.
 
 ### Obtaining a Domain
 
-### Configuration
+#### Configuration
 
 
 

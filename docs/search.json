@@ -25,7 +25,7 @@
     "href": "domains.html",
     "title": "Domain Configuration",
     "section": "",
-    "text": "How to use a domain for easier remote access to your server.\n\nObtaining a Domain\n\n\nConfiguration\n\nDNS\n\n\n\nLink Domain to Server\n\nLocaltonet\n\n\nPinggy\n\n\nOther Services",
+    "text": "How to use a domain for easier remote access to your server.\n\nObtaining a Domain\n\nConfiguration\n\n\nDNS\n\n\n\nLink Domain to Server\n\nLocaltonet\n\n\nPinggy\n\n\nOther Services",
     "crumbs": [
       "Advanced",
       "Domain Configuration"
@@ -36,7 +36,7 @@
     "href": "configuration.html",
     "title": "Server Configuration",
     "section": "",
-    "text": "Configuring useful features on your server.\n\nTranscoding\n\n\nTrickplay\n\n\nScheduled Tasks\n\n\nPlugins\n\n\nOther Useful Configuration",
+    "text": "Configuring useful features on your server.\n\nTranscoding\nWhen streaming content, sometimes transcoding will be required to reduce buffering and increase compatiblity. For example, if the upload speed of your internet low, the media must be transcoded to prevent buffering. Additionally, some devices don’t support certain codecs (eg. H.265, AV1, etc) and require media to be transcoded for compatiblity.\nWithin Jellyfin, there are many settings for transcoding, but here, we will focus on hardware acceleration, format options, and how far ahead of a given timestamp the server will transcode.\n[discuss the settings]\n\n\nTrickplay\n\n\nScheduled Tasks\nScheduled tasks allow your server to run certain operations automatically, keeping the server optimized and metadata up to date. Tasks can be set to run daily, weekly, after a certain time interval, and/or every time the server starts up. Additionally, a time limit can be set on the tasks to prevent them from running too long.\nOn my server, I have every scheduled task set to run daily at 1:00am, allowing them to run and finish while I’m very unlikely to be using the server. Nearly all of the tasks run in less than a minute, so running them weekly would likely be just fine, although the longer you go without running the tasks, the longer they may take.\nMy recommendation is to start by setting all the tasks to run weekly in the early-morning and adjust from there.\n\n\nPlugins\n\n\nOther Useful Configuration",
     "crumbs": [
       "Advanced",
       "Server Configuration"
@@ -69,7 +69,7 @@
     "href": "access.html#connecting-outside-your-network",
     "title": "Remote Access",
     "section": "Connecting Outside Your Network",
-    "text": "Connecting Outside Your Network\n\nPort Forwarding\n[What if you can’t access the router?]\n\n\nWhat is Tunneling?\n\n\nOptions\n\nPlayit.gg:\nLocaltonet:\nPinggy:\nOther Options:",
+    "text": "Connecting Outside Your Network\n\nPort Forwarding\n\n\nWhat is Tunneling?\n\nOptions\n\nPlayit.gg:\nLocaltonet:\nPinggy:\nOther Options:",
     "crumbs": [
       "Basics",
       "Remote Access"
