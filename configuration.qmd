@@ -26,7 +26,9 @@ My recommendation is to start by setting all the tasks to run weekly in the earl
 
 ### Plugins
 
+Jellyfin comes with the ability to install plugins, with nearly 40 able to be easily installed within the server settings.  These allow you to pull metadata from more sources, download subtitles from the internet, and have more administrative tools.
 
+To install a plugin, simply click the plugin you want to install, click install, and restart your server.  To uninstall, click on the installed plugin, click uninstall, and restart your server.
 
 ### Other Useful Configuration
 

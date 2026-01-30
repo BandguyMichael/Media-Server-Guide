@@ -14,13 +14,13 @@ Once you have the server IP address, enter http://[IP address]:8096 into your br
 
 ## Connecting Outside Your Network
 
-
+Most users will want access to their media library outside of their home network.  To do this, there are two main options: Port forwarding, and tunneling.
 
 ### Port Forwarding
 
 
 
-### What is Tunneling?
+### Tunneling
 
 
 
