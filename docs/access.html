@@ -242,20 +242,22 @@ ul.task-list li input[type="checkbox"] {
 <p>Most users will want access to their media library outside of their home network. To do this, there are two main options: Port forwarding, and tunneling.</p>
 <section id="port-forwarding" class="level3">
 <h3 class="anchored" data-anchor-id="port-forwarding">Port Forwarding</h3>
+<p>Port forwarding involves opening a specific port on your router and directing traffic on that port to your server. This allows you to access your server from anywhere with an internet connection by entering your public IP address and the forwarded port into your browser.</p>
+<p>I personally have not used port forwarding due to moving between networks and having little to no access to the the routers. However, here is a good source on how to set up port forwarding: <a href="https://portforward.com/how-to-port-forward/">How to Set Up Port Forwarding</a>.</p>
+<p>If you move your server between networks relatively frequently or do not have access to the router, I recommend using a tunneling service instead.</p>
 </section>
 <section id="tunneling" class="level3">
 <h3 class="anchored" data-anchor-id="tunneling">Tunneling</h3>
-<section id="options" class="level4">
-<h4 class="anchored" data-anchor-id="options">Options</h4>
+<p>Tunneling services create a secure connection between your server and an external server, allowing you to access your server without needing to open ports on your router. This is particularly useful if you are unable to configure port forwarding on your router, or if you want to avoid the security risks associated with opening ports.</p>
+<p>Below are some tunneling services I’ve used; I’ve also linked a GitHub page with a more comprehensive list.</p>
 <ul>
 <li><p>Playit.gg: Playit.gg provides limited capabilities in exchange for free use. This service will work when starting out, although other options are better if more configurability or easier sharing are desired.</p></li>
 <li><p>Localtonet: Localtonet is a paid tunneling service with a free tier. Like Playit.gg, the free tier is quite limited, but sufficient for trying out the service. Paid plans allow you to use custom domains and keep the tunnel open 24/7.</p></li>
 <li><p>Pinggy: Like Localtonet, Pinggy is a paid tunneling service with a free tier. The free tier is still quite limited, but is still sufficient for testing out the service. Pinggy also allows custom domains and 24/7 tunnels on paid plans.</p></li>
-<li><p>Other Options: There are many other tunneling services available. A good list of options can be found <a href="https://github.com/anderspitman/awesome-tunneling">here</a>.</p></li>
+<li><p>Other Options: There are many other tunneling services available, including those at different prices, having different capabilities, and some being open-source. A good list of options is <a href="https://github.com/anderspitman/awesome-tunneling">anderspitman’s awesome-tunneling on GitHub</a>.</p></li>
 </ul>
 
 
-</section>
 </section>
 </section>
 
