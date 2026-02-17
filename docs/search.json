@@ -90,7 +90,7 @@
     "href": "accounts.html",
     "title": "Account Management",
     "section": "",
-    "text": "How to optimize account creation and management.\n\nWhat is jfa-go?\n\n\nHow to add jfa-go to Jellyfin\n\n\njfa-go Configuration",
+    "text": "Creating and managing accounts for your media server.\n\nCreating accounts\nTo create an account, navigate to the “Users” section of your media server’s settings. From there, you can add new users by providing a username, password, and choose which libraries the user will have access to. After this, you can further customize the user’s profile and access permissions.\n\n\nManaging accounts\n\nProfile\nThe profile section provides the most customization of the user account. Here, you can set a profile picture, change the username, and customize the user’s preferences for how they cam view and interact with the media server. Additionally, you can give certain users administrative privileges, allowing them to manage the server and other user accounts.\nThis section also provides quality of life options, such as limiting the bitrate a user can stream at and setting a maximum number of simultaneous streams for the user. This can be useful for managing bandwidth and ensuring a smooth streaming experience for all users on the server.\n\n\nAccess\nThe access section allows you to control which libraries a user can access and which devices a user can login from. These features can be used to limit where a user can access the media server and what content they can view. For example, you can restrict a user to only access the media server from certain devices, such as a smart TV or a mobile device, and limit their access to specific libraries, such as only allowing them to view movies but not TV shows.\n\n\nParental Controls\nParental controls allow you to restrict access to certain content based on ratings. This can be useful for managing what content is appropriate for different users, such as children. You can set a maximum allowed rating for movies and TV shows, and any content that exceeds that rating will be hidden from the user. Additionally, media can be blocked or allowed based on tags, such as blocking all content tagged with “horror” or allowing all content tagged with “family”. Finally, an access schedule can be set to restrict when a user can access the media server, such as only allowing access during certain hours of the day.",
     "crumbs": [
       "Advanced",
       "Account Management"
@@ -144,7 +144,7 @@
     "href": "iptv.html",
     "title": "IPTV",
     "section": "",
-    "text": "Adding live television to your server.\n\nWhat is IPTV?\n\n\nSetting Up IPTV\n\n\nChannel Guide\n\n\nDVR Setup",
+    "text": "Adding live television to your server.\n\nWhat is IPTV?\nIPTV is a method of delivering television content over the internet. It allows you to stream live TV channels and on-demand content to your devices without the need for traditional cable or satellite TV services. IPTV can be used with various media server software, such as Jellyfin, Plex, and EmuDeck, to provide a seamless TV viewing experience. While IPTV works with many types of media server software, I will be discussing it in relation to Jellyfin.\n\n\nSetting Up IPTV\n\n\nChannel Guide\n\n\nDVR Setup",
     "crumbs": [
       "Advanced",
       "IPTV"

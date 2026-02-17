@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c11cdfe929c57623974421c58f46530a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -199,9 +199,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-jfa-go" id="toc-what-is-jfa-go" class="nav-link active" data-scroll-target="#what-is-jfa-go">What is jfa-go?</a></li>
-  <li><a href="#how-to-add-jfa-go-to-jellyfin" id="toc-how-to-add-jfa-go-to-jellyfin" class="nav-link" data-scroll-target="#how-to-add-jfa-go-to-jellyfin">How to add jfa-go to Jellyfin</a></li>
-  <li><a href="#jfa-go-configuration" id="toc-jfa-go-configuration" class="nav-link" data-scroll-target="#jfa-go-configuration">jfa-go Configuration</a></li>
+  <li><a href="#creating-accounts" id="toc-creating-accounts" class="nav-link active" data-scroll-target="#creating-accounts">Creating accounts</a></li>
+  <li><a href="#managing-accounts" id="toc-managing-accounts" class="nav-link" data-scroll-target="#managing-accounts">Managing accounts</a></li>
   </ul>
 </nav>
     </div>
@@ -227,17 +226,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>How to optimize account creation and management.</p>
-<section id="what-is-jfa-go" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-jfa-go">What is jfa-go?</h3>
+<p>Creating and managing accounts for your media server.</p>
+<section id="creating-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="creating-accounts">Creating accounts</h3>
+<p>To create an account, navigate to the “Users” section of your media server’s settings. From there, you can add new users by providing a username, password, and choose which libraries the user will have access to. After this, you can further customize the user’s profile and access permissions.</p>
 </section>
-<section id="how-to-add-jfa-go-to-jellyfin" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-add-jfa-go-to-jellyfin">How to add jfa-go to Jellyfin</h3>
+<section id="managing-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="managing-accounts">Managing accounts</h3>
+<section id="profile" class="level4">
+<h4 class="anchored" data-anchor-id="profile">Profile</h4>
+<p>The profile section provides the most customization of the user account. Here, you can set a profile picture, change the username, and customize the user’s preferences for how they cam view and interact with the media server. Additionally, you can give certain users administrative privileges, allowing them to manage the server and other user accounts.</p>
+<p>This section also provides quality of life options, such as limiting the bitrate a user can stream at and setting a maximum number of simultaneous streams for the user. This can be useful for managing bandwidth and ensuring a smooth streaming experience for all users on the server.</p>
 </section>
-<section id="jfa-go-configuration" class="level3">
-<h3 class="anchored" data-anchor-id="jfa-go-configuration">jfa-go Configuration</h3>
+<section id="access" class="level4">
+<h4 class="anchored" data-anchor-id="access">Access</h4>
+<p>The access section allows you to control which libraries a user can access and which devices a user can login from. These features can be used to limit where a user can access the media server and what content they can view. For example, you can restrict a user to only access the media server from certain devices, such as a smart TV or a mobile device, and limit their access to specific libraries, such as only allowing them to view movies but not TV shows.</p>
+</section>
+<section id="parental-controls" class="level4">
+<h4 class="anchored" data-anchor-id="parental-controls">Parental Controls</h4>
+<p>Parental controls allow you to restrict access to certain content based on ratings. This can be useful for managing what content is appropriate for different users, such as children. You can set a maximum allowed rating for movies and TV shows, and any content that exceeds that rating will be hidden from the user. Additionally, media can be blocked or allowed based on tags, such as blocking all content tagged with “horror” or allowing all content tagged with “family”. Finally, an access schedule can be set to restrict when a user can access the media server, such as only allowing access during certain hours of the day.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

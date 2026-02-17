@@ -2,15 +2,24 @@
 title: "Account Management"
 ---
 
-How to optimize account creation and management.
+Creating and managing accounts for your media server.
 
-### What is jfa-go?
+### Creating accounts
 
+To create an account, navigate to the "Users" section of your media server's settings.  From there, you can add new users by providing a username, password, and choose which libraries the user will have access to.  After this, you can further customize the user's profile and access permissions.
 
+### Managing accounts
 
-### How to add jfa-go to Jellyfin
+#### Profile
 
+The profile section provides the most customization of the user account.  Here, you can set a profile picture, change the username, and customize the user's preferences for how they cam view and interact with the media server.  Additionally, you can give certain users administrative privileges, allowing them to manage the server and other user accounts.  
 
+This section also provides quality of life options, such as limiting the bitrate a user can stream at and setting a maximum number of simultaneous streams for the user.  This can be useful for managing bandwidth and ensuring a smooth streaming experience for all users on the server.
 
-### jfa-go Configuration
+#### Access
 
+The access section allows you to control which libraries a user can access and which devices a user can login from.  These features can be used to limit where a user can access the media server and what content they can view.  For example, you can restrict a user to only access the media server from certain devices, such as a smart TV or a mobile device, and limit their access to specific libraries, such as only allowing them to view movies but not TV shows.
+
+#### Parental Controls
+
+Parental controls allow you to restrict access to certain content based on ratings.  This can be useful for managing what content is appropriate for different users, such as children.  You can set a maximum allowed rating for movies and TV shows, and any content that exceeds that rating will be hidden from the user.  Additionally, media can be blocked or allowed based on tags, such as blocking all content tagged with "horror" or allowing all content tagged with "family".  Finally, an access schedule can be set to restrict when a user can access the media server, such as only allowing access during certain hours of the day.

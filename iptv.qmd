@@ -6,7 +6,7 @@ Adding live television to your server.
 
 ### What is IPTV?
 
-
+IPTV is a method of delivering television content over the internet.  It allows you to stream live TV channels and on-demand content to your devices without the need for traditional cable or satellite TV services.  IPTV can be used with various media server software, such as Jellyfin, Plex, and EmuDeck, to provide a seamless TV viewing experience.  While IPTV works with many types of media server software, I will be discussing it in relation to Jellyfin.
 
 ### Setting Up IPTV
 
