@@ -5,7 +5,7 @@ title: "Demo"
 Here is an interactive demo of what your server can look like!
 
 ```{=html}
-<iframe width="780" height="500" src="https://stream.bandguymichael.org" title="Quarto Documentation"></iframe>
+<iframe width="780" height="500" src="http://stream.bandguymichael.org" title="Quarto Documentation"></iframe>
 ```
 
 Attributions for content used:
