@@ -10,11 +10,12 @@ IPTV is a method of delivering television content over the internet.  It allows 
 
 ### Setting Up IPTV
 
-
+To add live TV to your server, you will need to set up an IPTV tuner. An easy way to add this capability is to add an M3U tuner device, copy an IPTV playlist in (whether that be a file or a link), and saving. It will take a few minutes to load everything in, but once it does, you will have access to all the channels in the playlist. A good source of channels to start out with is [iptv by iptv-org](https://github.com/iptv-org/iptv)
 
 ### Channel Guide
 
-
+Adding a channel guide can be a little more challenging than getting basic live TV set up. The easiest method is using Schedules Direct, which is a built-in option in Jellyfin. However, the service does require payment after the first 7 days. A good free option to check out is [epg by iptv-org](https://github.com/iptv-org/epg), which provides free channel guide data for many channels. Instructions on how to use this data with Jellyfin can be found in the GitHub repository linked above. A third, but more involved option is to use XMLTV data, which is a standard format for TV guide data. This method requires more technical knowledge and regular updating by the user. Finally, if you have a TV tuner card, you can use the channel guide data provided by your TV tuner software, such as HDHomeRun.
 
 ### DVR Setup
 
+Once you have the channel guide set up, you will be able to record programs to watch later. To set up DVR, navigate to the “Live TV” section of your media server’s settings and select “DVR”. From there, you can configure your recording settings, such as the storage location for recorded programs and the recording quality. You can also set up recording schedules to automatically record specific programs or channels at certain times. This allows you to easily keep up with your favorite shows and never miss an episode again.
